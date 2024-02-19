@@ -6,7 +6,7 @@ const words = [
     'user experience',
     'web accessibility',
     'the cloud',
-    'non-profts',
+    'non-profits',
     'open source',
     'small business',
     'startups',
