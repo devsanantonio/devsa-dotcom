@@ -7,7 +7,8 @@ export function PageIntro({ eyebrow, title, children, centered = false }) {
     return (
         <Container
             className={clsx(
-                'mt-24 sm:mt-32 lg:mt-40'
+                'mt-24 sm:mt-32 lg:mt-40',
+                centered && 'text-center'
             )}
         >
             <FadeIn>
@@ -18,7 +19,8 @@ export function PageIntro({ eyebrow, title, children, centered = false }) {
                     <span className="sr-only"> - </span>
                     <span
                         className={clsx(
-                            'font-displayblock max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-950 sm:text-6xl'
+                            'font-display mt-6 block max-w-5xl text-balance text-5xl font-medium tracking-tight text-neutral-950 sm:text-6xl',
+                            centered && 'mx-auto'
                         )}
                     >
                         {title}
@@ -27,6 +29,7 @@ export function PageIntro({ eyebrow, title, children, centered = false }) {
                 <div
                     className={clsx(
                         'mt-6 max-w-3xl text-balance text-xl text-neutral-600',
+                        centered && 'mx-auto'
                     )}
                 >
                     {children}

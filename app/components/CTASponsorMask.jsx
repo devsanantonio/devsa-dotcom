@@ -24,10 +24,10 @@ export function SponsorMask() {
                         <div className="relative isolate overflow-hidden rounded-3xl bg-neutral-950 px-6 py-24 text-center shadow-2xl sm:px-16">
                             {GradientMask()}
                             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300">
-                                There is a notable absence in the field of web
-                                development. We are committed to filling this
-                                void by creating a dynamic hub for web
-                                developers and engineers
+                                There is a significant gap in the field of Software
+                                development. We are committed to bridging this
+                                gap by establishing a dynamic hub that fosters an environment 
+                                of innovative solutions for users
                             </p>
                             <div className="mx-auto mt-10 flex max-w-xl items-center justify-center">
                                 <div className="relative flex h-24 w-24 flex-none items-center justify-center">
@@ -45,7 +45,7 @@ export function SponsorMask() {
                                             Click QR Code to Donate
                                         </Link>
                                     </p>
-                                    <p className="mt-1 text-sm text-neutral-300">
+                                    <p className="mt-1 text-sm text-neutral-300 text-balance">
                                         As we venture into hosting official
                                         devSA events, we are actively seeking
                                         two key elements: sponsors and

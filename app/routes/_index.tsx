@@ -27,14 +27,12 @@ export default function Index() {
             <PageIntro
                 eyebrow="Military City, USA"
                 title={<AnimatedText />}
-                centered
             >
                 <p>
-                    Within our city, there's a notable absence in the field of
-                    web development. <strong>devSA</strong> is committed to
-                    filling this void by creating a dynamic hub where web
-                    developers and software engineers can connect, learn, and
-                    grow together
+                    In our city, there's a significant gap in the field of software development.{' '}
+                    <strong>devSA</strong> is dedicated to bridging this gap by establishing a dynamic hub 
+                    that fosters an environment of innovative solutions for users, 
+                    transcending boundaries of platform and technology
                 </p>
             </PageIntro>
 
