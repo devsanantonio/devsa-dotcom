@@ -27,7 +27,7 @@ export function AnimatedText() {
     return (
         <>
             <h1
-                className="font-display max-w-5xl text-balance text-5xl font-medium tracking-tight sm:text-6xl"
+                className="-ml-1 font-display max-w-5xl block text-balance text-5xl font-medium tracking-tight sm:text-6xl"
                 data-animate
                 data-gradient
                 style={{
