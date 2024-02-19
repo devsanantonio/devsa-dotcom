@@ -1,6 +1,6 @@
 # Welcome to Military City, USA
 
-Within our city, there's a notable absence in the field of web development. **devSA** is committed to filling this void by creating a dynamic hub where web developers and software engineers can connect, learn, and grow together
+In our city, there's a significant gap in the field of software development. **devSA** is dedicated to bridging this gap by establishing a dynamic hub that fosters an environment of innovative solutions for users, transcending boundaries of platform and technology
 
 ![devSA terminal github logo](https://res.cloudinary.com/jessebubble/image/upload/v1708019767/devsa_kum4r4.png)
 <br />
@@ -80,11 +80,9 @@ Go to the [Pull Requests](https://github.com/your-username/devsa-dotcom/pulls) t
 devsa-dotcom/
 │
 ├── app/
-│   ├── .server/
 │   ├── components/
 │   ├── routes/
 │   └── root.tsx
-│
 └── ...
 ```
 
@@ -112,3 +110,9 @@ npm run dev
 -   [Tailwind CSS](https://tailwindcss.com/)
 -   [Frame Motion](https://www.framer.com/motion/)
 -   [Fly.io](https://fly.io/)
+
+## Contributors
+Thank you to the following contributors who have made contributions to the project: 
+
+-   [Chris Keller](https://github.com/ckeller22)
+-   [Jesse Hernandez](https://github.com/jessebubble)
