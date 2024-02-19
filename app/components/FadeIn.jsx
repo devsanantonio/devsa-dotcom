@@ -3,7 +3,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 
 const FadeInStaggerContext = createContext(false);
 
-const viewport = { once: true, margin: '0px 0px -200px' };
+const viewport = { once: true, margin: '0px 0px -120px' };
 
 export function FadeIn(props) {
     let shouldReduceMotion = useReducedMotion();

@@ -56,7 +56,7 @@ function NavBar({
         <Container className="">
             <div className="flex items-center justify-between">
                 <Link to="/" aria-label="Home">
-                    <Logo className="h-20 w-auto md:h-24" />
+                    <Logo className="h-10 w-auto" />
                 </Link>
                 <div className="flex items-center gap-x-6">
                     <Button

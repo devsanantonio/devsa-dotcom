@@ -1,6 +1,6 @@
 export function Logo({ ...props }) {
     return (
-        <svg viewBox="0 0 792 612" {...props}>
+        <svg viewBox="200 150 392 312" {...props}>
             <style>{'.st3{fill:#eee}'}</style>
             <path d="M213.6 222.4h364.8v205.2c0 8.4-6.8 15.2-15.2 15.2H228.8c-8.4 0-15.2-6.8-15.2-15.2V222.4z" />
             <path
