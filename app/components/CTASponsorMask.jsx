@@ -1,18 +1,18 @@
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 import { Link } from '@remix-run/react';
-import qrCode from '~/components/images/qr-code.svg'
+import qrCode from '~/components/images/qr-code.svg';
 
 function QrCodeBorder(props) {
     return (
-      <svg viewBox="0 0 96 96" fill="none" aria-hidden="true" {...props}>
-        <path
-          d="M1 17V9a8 8 0 0 1 8-8h8M95 17V9a8 8 0 0 0-8-8h-8M1 79v8a8 8 0 0 0 8 8h8M95 79v8a8 8 0 0 1-8 8h-8"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-      </svg>
-    )
+        <svg viewBox="0 0 96 96" fill="none" aria-hidden="true" {...props}>
+            <path
+                d="M1 17V9a8 8 0 0 1 8-8h8M95 17V9a8 8 0 0 0-8-8h-8M1 79v8a8 8 0 0 0 8 8h8M95 79v8a8 8 0 0 1-8 8h-8"
+                strokeWidth="2"
+                strokeLinecap="round"
+            />
+        </svg>
+    );
 }
 
 export function SponsorMask() {
@@ -24,16 +24,18 @@ export function SponsorMask() {
                         <div className="relative isolate overflow-hidden rounded-3xl bg-neutral-950 px-6 py-24 text-center shadow-2xl sm:px-16">
                             {GradientMask()}
                             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300">
-                                There is a notable absence in the field of web development. 
-                                We are committed to filling this void by creating a dynamic hub for web developers and engineers 
+                                There is a notable absence in the field of web
+                                development. We are committed to filling this
+                                void by creating a dynamic hub for web
+                                developers and engineers
                             </p>
-                            <div className="mx-auto mt-10 max-w-xl flex items-center justify-center">
+                            <div className="mx-auto mt-10 flex max-w-xl items-center justify-center">
                                 <div className="relative flex h-24 w-24 flex-none items-center justify-center">
                                     <QrCodeBorder className="absolute inset-0 h-full w-full stroke-white" />
-                                    <img 
-                                        src={qrCode} 
-                                        alt="Stripe QR code" 
-                                        className='bg-white rounded-2xl h-20 w-20 p-2'
+                                    <img
+                                        src={qrCode}
+                                        alt="Stripe QR code"
+                                        className="h-20 w-20 rounded-2xl bg-white p-2"
                                     />
                                 </div>
                                 <div className="ml-8 lg:w-64">
@@ -44,7 +46,10 @@ export function SponsorMask() {
                                         </Link>
                                     </p>
                                     <p className="mt-1 text-sm text-neutral-300">
-                                        As we venture into hosting official devSA events, we are actively seeking two key elements: sponsors and collaborative organizations
+                                        As we venture into hosting official
+                                        devSA events, we are actively seeking
+                                        two key elements: sponsors and
+                                        collaborative organizations
                                     </p>
                                 </div>
                             </div>
