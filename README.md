@@ -11,22 +11,22 @@ We have activated GitHub Discussions and implemented a structured template for r
 
 ## Let's collaborate!
 
--   [ ] **Create a new issue** to discuss your ideas and get feedback from the community. Issue templates are available in the repository.
--   [ ] **Fork the repository** and create a new branch for your contributions.
--   [ ] **Make your changes** and submit a pull request.
+-  [ ] **Create a new issue** to discuss your ideas and get feedback from the community. Issue templates are available in the repository.
+-  [ ] **Fork the repository** and create a new branch for your contributions.
+-  [ ] **Make your changes** and submit a pull request.
 
 ## Some Ideas for Contributions
 
--   [ ] **Add a login/logout feature with authentication**
--   [ ] **Create an option to receive payments** from the website. Give sponsors the option to donate to the community anonymously or publicly.
--   [ ] **Create an events calendar** create option to add/edit/delete events to a calendar.
--   [ ] **Create a developer showcase route** on the website to display developers from the community with links to their portfolios and social media profiles.
--   [ ] **Create a jobs board** for the website to display job postings from the community.
--   [ ] **Add feature: add/edit/delete jobs from the job board** on the website.
+-  [ ] **Add a login/logout feature with authentication**
+-  [ ] **Create an option to receive payments** from the website. Give sponsors the option to donate to the community anonymously or publicly.
+-  [ ] **Create an events calendar** create option to add/edit/delete events to a calendar.
+-  [ ] **Create a developer showcase route** on the website to display developers from the community with links to their portfolios and social media profiles.
+-  [ ] **Create a jobs board** for the website to display job postings from the community.
+-  [ ] **Add feature: add/edit/delete jobs from the job board** on the website.
 
--   [ ] **Create a blog** for the website. Should we connect to a headless tool like `hashnode` or keep it simple with `markdown` files?
--   [ ] **Add option to add/edit/delete blog posts** on the website.
--   [ ] **Create a commerce store** for the website. What data should we collect? How should we process payments? Should we use a headless tool like `Hydrogen`?
+-  [ ] **Create a blog** for the website. Should we connect to a headless tool like `hashnode` or keep it simple with `markdown` files?
+-  [ ] **Add option to add/edit/delete blog posts** on the website.
+-  [ ] **Create a commerce store** for the website. What data should we collect? How should we process payments? Should we use a headless tool like `Hydrogen`?
 
 ## Getting Started
 
@@ -104,15 +104,16 @@ npm run dev
 
 ## Resources
 
--   [devSA Discord](https://https://discord.gg/f3gnmjScW3)
--   [Remix](https://remix.run/)
--   [React](https://react.dev/)
--   [Tailwind CSS](https://tailwindcss.com/)
--   [Frame Motion](https://www.framer.com/motion/)
--   [Fly.io](https://fly.io/)
+-  [devSA Discord](https://https://discord.gg/f3gnmjScW3)
+-  [Remix](https://remix.run/)
+-  [React](https://react.dev/)
+-  [Tailwind CSS](https://tailwindcss.com/)
+-  [Frame Motion](https://www.framer.com/motion/)
+-  [Fly.io](https://fly.io/)
 
 ## Contributors
-Thank you to the following contributors who have made contributions to the project: 
 
--   [Chris Keller](https://github.com/ckeller22)
--   [Jesse Hernandez](https://github.com/jessebubble)
+Thank you to the following contributors who have made contributions to the project:
+
+-  [Chris Keller](https://github.com/ckeller22)
+-  [Jesse Hernandez](https://github.com/jessebubble)
