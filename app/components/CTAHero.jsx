@@ -8,7 +8,7 @@ import { SectionIntro } from '~/components/SectionIntro';
 
 export function HeroSection() {
    return (
-      <div className="mt-24 pt-24">
+      <div className="mt-24 pt-24 pb-24">
          <SectionIntro
             eyebrow="Building for everyone"
             title="Leveraging the power of our tech community"

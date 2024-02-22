@@ -37,8 +37,8 @@ export default function Index() {
 
          <MarqueeSection />
          <HeroSection />
-         <CommunitySection />
          <ShopSection />
+         <CommunitySection />
          <DiscordSection />
          <GitHubSection />
          <SponsorMask />

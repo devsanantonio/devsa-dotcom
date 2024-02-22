@@ -6,7 +6,7 @@ import { GrayscaleTransitionImage } from './GrayscaleTransitionImage';
 
 export function CommunitySection() {
    return (
-      <div className="mt-24 pt-24 sm:mt-32 sm:pt-32">
+      <div className="mt-24 pt-24 sm:mt-32 lg:mt-40">
          <SectionIntro
             eyebrow="Community Spotlight"
             title="Explore the city and discover your next community"
