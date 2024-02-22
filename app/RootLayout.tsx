@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import { motion, MotionConfig, useReducedMotion } from 'framer-motion';
 import { Container } from '~/components/Container';
 import { Button } from '~/components/Button';
-import { Logo } from '~/components/Logo';
+import { Logo } from '~/components/images/Logo';
 import { Footer } from '~/components/Footer';
 
 export function RootLayout({ children }: { children: React.ReactNode }) {

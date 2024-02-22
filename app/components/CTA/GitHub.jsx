@@ -1,6 +1,6 @@
 import { Link } from '@remix-run/react';
-import { Container } from './Container';
-import { FadeIn } from './FadeIn';
+import { Container } from '../Container';
+import { FadeIn } from '../FadeIn';
 
 export function GitHubSection() {
    return (

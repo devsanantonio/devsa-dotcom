@@ -1,13 +1,13 @@
 import type { MetaFunction } from '@remix-run/node';
 import { PageIntro } from '~/components/PageIntro';
-import { HeroSection } from '~/components/CTAHero';
-import { GitHubSection } from '~/components/CTAGitHub';
-import { DiscordSection } from '~/components/CTADiscord';
-import { MarqueeSection } from '~/components/CTAMarquee';
+import { HeroSection } from '~/components/CTA/Hero';
+import { GitHubSection } from '~/components/CTA/GitHub';
+import { DiscordSection } from '~/components/CTA/Discord';
+import { MarqueeSection } from '~/components/CTA/Marquee';
 import { AnimatedText } from '~/components/AnimatedText';
-import { CommunitySection } from '~/components/CTACommunity';
-import { SponsorMask } from '~/components/CTASponsorMask';
-import { ShopSection } from '~/components/CTAShop';
+import { CommunitySection } from '~/components/CTA/Community';
+import { SponsorMask } from '~/components/CTA/SponsorMask';
+import { ShopSection } from '~/components/CTA/Shop';
 
 export const meta: MetaFunction = () => {
    return [
