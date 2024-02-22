@@ -1,7 +1,7 @@
 import { Link } from '@remix-run/react';
 import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
-import { Logo } from '~/components/Logo';
+import { Logo } from '~/components/images/Logo';
 import { SocialMedia } from '~/components/SocialMedia';
 
 export function Footer() {
