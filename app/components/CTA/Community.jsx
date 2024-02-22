@@ -2,7 +2,7 @@ import { Link } from '@remix-run/react';
 import { Container } from '~/components/Container';
 import { FadeIn, FadeInStagger } from '~/components/FadeIn';
 import { SectionIntro } from '~/components/SectionIntro';
-import { GrayscaleTransitionImage } from './GrayscaleTransitionImage';
+import { GrayscaleTransitionImage } from '../GrayscaleTransitionImage';
 
 export function CommunitySection() {
    return (

@@ -2,7 +2,7 @@ import { Container } from '~/components/Container';
 import { FadeIn } from '~/components/FadeIn';
 import { SectionIntro } from '~/components/SectionIntro';
 import { Button } from '~/components/Button';
-import { GrayscaleTransitionImage } from './GrayscaleTransitionImage';
+import { GrayscaleTransitionImage } from '../GrayscaleTransitionImage';
 import { Link } from "@remix-run/react";
 
 export function ShopSection() {

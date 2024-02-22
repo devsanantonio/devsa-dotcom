@@ -1,32 +1,33 @@
 import { Container } from '~/components/Container';
 import { FadeIn, FadeInStagger } from '~/components/FadeIn';
-import { Border } from '~/components/Border';
-import logoAWS from '~/components/images/logos/aws.svg';
-import logoOpenAI from '~/components/images/logos/openai.svg';
-import logoDocker from '~/components/images/logos/docker.svg';
-import logoSwiftUI from '~/components/images/logos/swiftui.svg';
-import logoReact from '~/components/images/logos/react.svg';
-import logoTailwind from '~/components/images/logos/tailwind.svg';
-import logoTypescript from '~/components/images/logos/typescript.svg';
-import logoWordpress from '~/components/images/logos/wordpress.svg';
-import logoSQLite from '~/components/images/logos/sqlite.svg';
-import logoFigma from '~/components/images/logos/figma.svg';
-import logoGithub from '~/components/images/logos/github.svg';
-import logoIllustrator from '~/components/images/logos/illustrator.svg';
+import { Border } from '~/app/components/Border';
+import {
+   awsSvg,
+   openAISvg,
+   dockerSvg,
+   githubSvg,
+   figmaSvg,
+   swiftUISvg,
+   tailwindSvg,
+   typescriptSvg,
+   wordpressSvg,
+   sqliteSvg,
+   illustratorSvg,
+} from '~/app/components/images/Logos';
 
 const tools = [
-   ['AWS', logoAWS],
-   ['OpenAI', logoOpenAI],
-   ['React', logoReact],
-   ['Docker', logoDocker],
-   ['Github', logoGithub],
-   ['Figma', logoFigma],
-   ['SwiftUI', logoSwiftUI],
-   ['Tailwind', logoTailwind],
-   ['Typescript', logoTypescript],
-   ['Wordpress', logoWordpress],
-   ['SQLite', logoSQLite],
-   ['Illustrator', logoIllustrator],
+   ['AWS', awsSvg],
+   ['OpenAI', openAISvg],
+   ['React', reactSvg],
+   ['Docker', dockerSvg],
+   ['Github', githubSvg],
+   ['Figma', figmaSvg],
+   ['SwiftUI', swiftUISvg],
+   ['Tailwind', tailwindSvg],
+   ['Typescript', typescriptSvg],
+   ['Wordpress', wordpressSvg],
+   ['SQLite', sqliteSvg],
+   ['Illustrator', illustratorSvg],
 ];
 
 export function ToolSection() {
