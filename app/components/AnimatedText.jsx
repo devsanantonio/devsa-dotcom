@@ -34,6 +34,7 @@ export function AnimatedText() {
                '--secondary': 'hsla(0,0%,100%,0.5)',
                '--highlight': '2',
                '--spread': '1',
+               'line-height': 'normal'
             }}
          >
             <span className="text-neutral-950">Building for</span>{' '}
@@ -43,8 +44,8 @@ export function AnimatedText() {
          <style>
             {`             
                 [data-gradient=true] {
-                    --primary-bg: conic-gradient(from var(--angle, 180deg) at 50% 70%,hsla(0,0%,98%,1) 0deg,#eec32d 72.0000010728836deg,#ec4b4b 144.0000021457672deg,#709ab9 216.00000858306885deg,#4dffbf 288.0000042915344deg,hsla(0,0%,98%,1) 1turn);
-                }
+                    --primary-bg: conic-gradient(from var(--angle, 180deg) at 50% 70%,hsla(0,0%,90%,1) 0deg,#eec32d 72.0000010728836deg,#ec4b4b 144.0000021457672deg,#709ab9 216.00000858306885deg,#4dffbf 288.0000042915344deg,hsla(0,0%,90%,1) 1turn)                
+                  }
                 h1 {
                     background:
                         var(--primary-bg),
