@@ -24,11 +24,8 @@ export function GitHubSection() {
                            Pull Request Welcome
                         </p>
                         <p className="mt-6 text-wrap text-base leading-7 text-neutral-800">
-                           We have activated GitHub Discussions and implemented
-                           a structured template for reporting issues and bugs.
-                           This enhancement empowers every member of our
-                           community to contribute by reporting anomalies or
-                           proposing innovative features.
+                           We've enabled GitHub Discussions and introduced a structured template for reporting issues and bugs, streamlining the process for improved efficiency and clarity
+
                         </p>
                         <div className="mt-8">
                            <Link

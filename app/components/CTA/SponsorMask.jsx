@@ -24,10 +24,8 @@ export function SponsorMask() {
                   <div className="relative isolate overflow-hidden rounded-3xl bg-neutral-950 px-6 py-24 text-center shadow-2xl sm:px-16">
                      {GradientMask()}
                      <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300">
-                        There is a significant gap in the field of software
-                        development. We are committed to bridging this gap by
-                        establishing a dynamic hub that fosters an environment
-                        of innovative solutions for users
+                        There is a significant disparity in defining San Antonio's tech landscape. 
+                        devSA strives to mitigate this gap by establishing a vibrant hub that fosters an inclusive atmosphere for the local tech community
                      </p>
                      <div className="mx-auto mt-10 flex max-w-xl items-center justify-center">
                         <div className="relative flex h-24 w-24 flex-none items-center justify-center">
@@ -46,8 +44,7 @@ export function SponsorMask() {
                               </Link>
                            </p>
                            <p className="mt-1 text-balance text-sm text-neutral-300">
-                              As we venture into hosting official devSA events,
-                              we are actively seeking two key elements: sponsors
+                              We are actively seeking two key elements: sponsors
                               and collaborative organizations
                            </p>
                         </div>

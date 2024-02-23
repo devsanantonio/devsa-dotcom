@@ -68,11 +68,8 @@ function Tech() {
       >
          <div className="space-y-6 text-base text-neutral-600">
             <p>
-               Within our city, a significant void exists in the realms of web
-               development. devSA aims to bridge this gap by establishing a
-               vibrant hub where individuals from diverse backgrounds can
-               convene to exchange insights on the tools, languages, and
-               frameworks integral to their development work
+               Within our city, there is a significant disparity in defining San Antonio's tech landscape. 
+               devSA strives to mitigate this gap by establishing a vibrant hub that fosters an inclusive atmosphere for the local tech community
             </p>
             <p>
                From marketing agencies that power our city's small businesses
@@ -87,7 +84,7 @@ function Tech() {
                We are excited to observe the emergence of these new community
                spaces. It's heartening to see their alignment with our objective
                of fostering a unique and beneficial initiative in San Antonio
-               that serves the web development community
+               that serves the local tech community
             </p>
          </div>
 
@@ -95,12 +92,12 @@ function Tech() {
             New community spaces include:
          </h3>
          <TagList className="mt-4">
-            <TagListItem>Alamo Angular Developers</TagListItem>
             <TagListItem>SA Data Science</TagListItem>
+            <TagListItem>No-Code/Low-Code</TagListItem>
             <TagListItem>UXSA</TagListItem>
             <TagListItem>ACM SA</TagListItem>
-            <TagListItem>Cloud Native SA</TagListItem>
-            <TagListItem>SA New Tech Meetup</TagListItem>
+            <TagListItem>Alamo Python Learners</TagListItem>
+            <TagListItem>Alamo Angular Developers</TagListItem>
          </TagList>
       </Section>
    );
@@ -118,14 +115,11 @@ function Community() {
             <p>
                The in-person meetup space in San Antonio continues to grow! We
                are thrilled to witness the rise of tech community spaces
-               dedicated to nurturing and growing the web development community
-               in our city
+               committed to nurturing and expanding the software development community in our city
             </p>
             <p>
-               Opportunities abound for those interested in publicly sharing
-               their journey with our community. Our goal isn't to rival content
-               creators on platforms like YouTube, Twitch, or Twitter. Instead,{' '}
-               <strong>devSA strives to offer a dedicated platform</strong> for
+               Our goal isn't to rival content creators on platforms like YouTube, Twitch, or Twitter.
+               Instead,{' '}<strong>devSA strives to offer a dedicated platform</strong> for
                those eager to share their experiences and growth with the SA
                tech community
             </p>

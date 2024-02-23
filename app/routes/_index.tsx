@@ -5,9 +5,9 @@ import { GitHubSection } from '~/components/CTA/GitHub';
 import { DiscordSection } from '~/components/CTA/Discord';
 import { MarqueeSection } from '~/components/CTA/Marquee';
 import { AnimatedText } from '~/components/AnimatedText';
-import { CommunitySection } from '~/components/CTA/Community';
 import { SponsorMask } from '~/components/CTA/SponsorMask';
 import { ShopSection } from '~/components/CTA/Shop';
+import { CalendarSection } from '~/components/CTA/Calendar';
 
 export const meta: MetaFunction = () => {
    return [
@@ -25,20 +25,17 @@ export const meta: MetaFunction = () => {
 export default function Index() {
    return (
       <>
-         <PageIntro eyebrow="Military City, USA" title={<AnimatedText />}>
+         <PageIntro eyebrow="Shaping the identity of tech in San Antonio" title={<AnimatedText />}>
             <p>
-               In our city, there's a significant gap in the field of software
-               development. <strong>devSA</strong> is dedicated to bridging this
-               gap by establishing a dynamic hub that fosters an environment of
-               innovative solutions for users, transcending boundaries of
-               platform and technology
+               Within our city, there is a significant disparity in defining San Antonio's tech landscape.{' '}
+               <strong>devSA</strong> strives to mitigate this gap by establishing a vibrant hub that fosters an inclusive atmosphere for the local tech community     
             </p>
          </PageIntro>
 
          <MarqueeSection />
          <HeroSection />
+         <CalendarSection />
          <ShopSection />
-         <CommunitySection />
          <DiscordSection />
          <GitHubSection />
          <SponsorMask />

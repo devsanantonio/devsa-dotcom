@@ -21,13 +21,11 @@ export function DiscordSection() {
                            Join us on Discord
                         </h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-neutral-950 sm:text-4xl">
-                           Initiating conversations and fostering collaboration
+                           Kick-start dialogues and cultivate collaboration
                         </p>
                         <p className="mt-6 text-wrap text-base leading-7 text-neutral-800">
-                           Share your work, ask for help, connect with other
-                           developers in the city. Join us on Discord to stay up
-                           to date with events and meetups, and get to know the
-                           San Antonio community
+                           Showcase your projects, seek assistance, and network with fellow developers in the city.
+                           Join our Discord channel and immerse yourself in the vibrant San Antonio developer community
                         </p>
                         <div className="mt-8">
                            <Link

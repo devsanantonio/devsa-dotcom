@@ -19,18 +19,18 @@ export function ShopSection() {
    return (
       <div className='cta mt-24 pt-24 sm:mt-32 lg:mt-40 rounded-3xl px-6 py-4 pb-24'>
          <SectionIntro
-            eyebrow="Print on Demand"
-            title="Show off your tech stack and wear the web"
+            eyebrow="Show off your tech stack"
+            title="POP-UP SHOP!"
+            invert
          >
             <p>
-               Every purchase you make is a direct investment in our developer community! 
-               While developers connect on GitHub and collaborate to complete the official devSA store, 
-               we realized these designs were too good to be left gathering dust. {' '}
-               Print on demand is powered by the Printify API
+               Every purchase you make contributes to the devSA mission of molding San Antonio's tech identity.
+               We strive to foster an inclusive atmosphere within the local tech community.
+               Your support helps us maintain this vibrant hub
             </p>
             <Link to="https://devsanantonio.printify.me/products" target="_blank" rel="noopener noreferrer">
                <Button 
-                  className='mt-6 text-spursPink -ml-4'
+                  className='mt-6 text-neutral-950/80 -ml-4'
                >
                   Shop Now &rarr;
                </Button>
@@ -75,8 +75,8 @@ export function ShopSection() {
                .cta {
                   /* Other styles */
                   background-size: 200% 200%;
-                  animation: gradient 15s ease infinite;
-                  background-image: linear-gradient(45deg, #fff 0%, #eee 55%, #333 100%);
+                  animation: gradient 10s ease infinite;
+                  background-image: linear-gradient(45deg, #ff8200 0%, #ef426f 55%, #00b2a9 100%);
                 }
                 
                 @keyframes gradient {
