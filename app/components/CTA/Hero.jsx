@@ -93,11 +93,11 @@ function Tech() {
          </h3>
          <TagList className="mt-4">
             <TagListItem>SA Data Science</TagListItem>
-            <TagListItem>No-Code/Low-Code</TagListItem>
             <TagListItem>UXSA</TagListItem>
             <TagListItem>ACM SA</TagListItem>
-            <TagListItem>Alamo Python Learners</TagListItem>
             <TagListItem>Alamo Angular Developers</TagListItem>
+            <TagListItem>No-Code/Low-Code</TagListItem>
+            <TagListItem>Alamo Python Learners</TagListItem>
          </TagList>
       </Section>
    );
